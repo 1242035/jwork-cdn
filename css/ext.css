@@ -1,0 +1,13 @@
+.modal{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal .modal-dialog{
+    border-radius:20px;
+    overflow: hidden;
+}
+.flagShow{
+    min-width: 170px;
+}
+.avatar{
+    max-width: 30px;
+}

@@ -1,0 +1,45 @@
+.candi-profile .tab-profile{background: #fff; box-shadow: 0 0 15px lightgray;border-radius: 20px;padding: 1.5rem 1rem; }
+.candi-profile .acticle-new-candidate {display: flex}
+.candi-profile .acticle-new-candidate  .image{position: relative;}
+.candi-profile .acticle-new-candidate .img-thumb div{position: absolute;top:0;right: -3px;;font-size: 16px;z-index: 1000;
+    background: #ffd131;padding: 2px 5px 2px 5px;;border-radius: 50%;}
+.candi-profile .acticle-new-candidate .img-thumb{width: 80px;height: 80px;float: left;overflow: hidden;border-radius: 50%;border: 2px solid #ffd131;}
+
+
+.candi-profile .list-info li{
+    position: relative;cursor: pointer;font-weight: 600;color: #6c6c6c;margin-bottom: 1rem;
+}
+.candi-profile .list-info li:hover i{right: 0;transition: 0.2s;}
+.candi-profile .list-info li i{position: absolute;right: 10px;top: 50%;transform: translateY(-50%);transition: 0.2s;}
+
+.candi-profile .ab{box-shadow: 0 0 15px lightgrey;
+    border-radius: 20px;
+    background: #fff;
+    padding: 3rem 1rem;
+    width: 100%;
+    min-height:100vh;position: relative; }
+
+.candi-profile #ab-5.ab hr{margin-top: 5px;margin-bottom: 5px;}
+.candi-profile .ab .content  .add{cursor: pointer;display: flex;margin-top: 2.5rem;font-weight: 600;color: #5b5b5b}
+.candi-profile .ab  .content .add i{font-size: 24px;color:#ffd131;margin-right: 1rem;}
+.candi-profile .ab  .save {position: absolute;right:1rem;top: 1rem;text-decoration: underline;}
+.candi-profile .ab  .save .btn-view-more{background: none;color: #6c6c6c;border-radius: 0;box-shadow: 0 0 0 0;font-size: 14px; }
+.candi-profile .ab  .save .btn-view-more:hover{color: #ffd131;}
+.candi-profile .head p{font-weight: 600;color: #6c6c6c;}
+.candi-profile .content .about{margin-bottom: 1.5rem;}
+.candi-profile .content .about label{color: #cbcbcb;font-size: 16px;margin-bottom: 0;}
+.candi-profile .content .about .form-control{border:0;border-bottom: 1px solid rgba(0,0,0,.15);border-radius:0;padding: 5px 0;
+    color: #5b5b5b; font-size: 16px;}
+.candi-profile .content .about .form-control::placeholder{color: #cbcbcb;font-size: 16px;}
+.candi-profile .content .about select.form-control
+{opacity: 1;padding-left: -5px; background: url(../imgs-fix/caret-down-solid.png) 99% / 1.5% no-repeat #fff;
+    -webkit-appearance: none;}
+.candi-profile   .chosen-container-multi .chosen-choices{border:0;border-bottom: 1px solid rgba(0,0,0,.15);border-radius:0;padding: 5px 0;
+        color: #5b5b5b; font-size: 16px;box-shadow: 0 0 0 0 #fff;}
+.candi-profile .content .about button.form-control{cursor: pointer;
+    background: url(../imgs-fix/caret-down-solid.png) 99% / 1.5% no-repeat #fff;
+    -webkit-appearance: none;}
+.candi-profile .ab label.label-checkbox input:checked ~ .checkmark{border-radius: 50%;}
+.candi-profile .ab  label.label-checkbox .checkmark{border-radius: 50%;}
+.candi-profile input[name="date"]{background: url(../imgs-fix/calendar-alt-regular.svg) 99% / 2% no-repeat #fff; }
+

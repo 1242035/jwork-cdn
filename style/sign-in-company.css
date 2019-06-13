@@ -1,0 +1,72 @@
+.wrap-sign-in-company{
+	margin: 50px 0 200px 0 !important;
+}
+.form-sign-in-company{
+	padding: 40px 60px;
+	background: #ffffff;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px 1px rgba(147, 149, 148, 0.18);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(147, 149, 148, 0.18);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(147, 149, 148, 0.18);
+}
+.form{}
+.form .title{
+	font-size: 28px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #424242;
+}
+.form .name-sign-in{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 25px;
+
+}
+.form .name-sign-in .form-group{}
+.form-group >hr{
+	margin: 20px 0 !important;
+}
+.form .name-sign-in .form-group .label-company{}
+.form .name-sign-in .form-group .input-text{}
+.form-check-label{
+	margin-top: -5px;
+}
+.btn-submit{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	border-radius: 2rem;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+}
+
+.btn-submit:hover{
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	color: #ffffff;
+	background: #222328;
+}
+
+.btn-register{
+	background: #ffd131;
+	margin: 30px 0;font-weight:600; 
+}
+.btn-register:hover{
+	background: #222328;
+}
+
+/* Hide the browser's default checkbox */
+
+
+/**********************/
+.label{
+	padding-left: 30px;
+}
+.forgot-pass{
+	float: right;
+	margin-top: -20px;
+}

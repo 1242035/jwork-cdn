@@ -1,0 +1,287 @@
+
+
+.new-candidate-emloyer{
+	margin-bottom: 200px
+}
+
+#rap-new-candidate{
+	
+}
+.wrap-new-candidate{
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px lightgrey;
+	min-height: 90vh;
+}
+.wrap-new-candidate .list{}
+.wrap-new-candidate .list >li{
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 10px;
+}
+.wrap-new-candidate .list >li:last-child{
+	border-bottom: none;
+}
+.wrap-new-candidate .title-new-candidate{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 20px;
+	color: #454545;
+}
+.acticle-new-candidate{
+	margin-bottom: 10px;cursor: pointer;
+}
+.acticle-new-candidate .img-thumb{
+	width: 80px;height: 80px;overflow: hidden;border-radius: 50%;border: 2px solid #ffd131;
+	float: left;
+}
+
+
+
+.acticle-new-candidate .info{
+	float: left;
+	width: calc(100% - 60px);
+	width: -webkit-calc(100% - 80px);
+	width: -moz-calc(100% - 80px);
+	width: -o-calc(100% - 80px);
+	padding-left: 15px;
+}
+.acticle-new-candidate .info .title{
+	margin-bottom: 0;
+}
+.acticle-new-candidate .info .title >a{
+	color: #1e1e1e;
+	font-size: 16px;
+	font-weight: 600;
+}
+.acticle-new-candidate .info .wrap-meta{}
+.acticle-new-candidate .info .wrap-meta .star-rating{}
+.acticle-new-candidate .info .wrap-meta .star-rating .checked-star{
+	color: #ffd131;
+	font-size: 13px;
+}
+.acticle-new-candidate .info .wrap-meta .time-cmt{
+	position: relative;
+	padding-right: 30px;
+	color: #6b6b6b;
+}
+.acticle-new-candidate .info .wrap-meta .time-cmt::before{
+	position: absolute;
+	content: '';
+	display: block;
+	background: url(../imgs-fix/chev-r.png);
+	height: 13px;
+	width: 9px;
+	top: 8px;
+	right: 0;
+	transition: .4s;
+
+}
+.acticle-new-candidate .info .intro{
+	color: #6b6b6b;
+	margin-bottom: 10px;
+
+}
+.acticle-new-candidate:hover .info .wrap-meta .time-cmt::before{
+	transform: translateX(-10px);
+	transition: .4s;
+}
+
+/******************/
+.wrap-interview-big{
+	
+}
+.wrap-interview{
+	margin-bottom: 30px;
+}
+.wrap-new-candidate{}
+.wrap-new-candidate .title-head{
+	margin-bottom: 20px;
+}
+.wrap-new-candidate .title-head .text{
+	position: relative;
+	padding-left: 10px;
+	color: #20212d;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+.wrap-new-candidate .title-head .text::before{
+	position: absolute;
+	content: '';
+	display: block;
+	background:  url(../imgs-fix/img-book.png);
+	width: 19px;
+	height: 13px;
+	top: 5px;
+	left: 0; 
+}
+.box-info-interview{
+	margin-bottom: 20px;
+}
+.box-info-interview .img-thumb{
+	width: 100px;
+	float: left;
+}
+.box-info-interview .img-thumb .image{}
+.box-info-interview .img-thumb .image >img{
+	width: 100%;
+	height: 100px;
+	border-radius: 50%;
+}
+.box-info-interview .info{ 
+	float: left;
+	width: calc(100% - 100px);
+	-webkit-width: calc(100% - 100px);
+	-moz-width: calc(100% - 100px);
+	-o-width: calc(100% - 100px);
+	padding-left: 20px;
+}
+.box-info-interview .info .name-title{
+	color: #626262;
+	font-size: 18px;
+	font-weight: 600;
+}
+.box-info-interview .info .name-address{
+	font-size: 15px;
+	color: #7d7d7d;
+	margin-bottom: 10px
+}
+.box-info-interview .info .box-buttom{}
+.box-info-interview .info .box-buttom .item-buttom{}
+.box-info-interview .info .box-buttom .item-buttom .read{
+	margin-right: 10px;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 4px 15px;
+	display: inline-block;
+	border-radius: 40px
+}
+.bg-interview{
+	background: #00a651;
+}
+.bg-Refuse{
+	background: #f26c4f;
+}
+.bg-dark{background: #414042;}
+.bg-chat{
+	background: #ffd131;
+}
+.wrap-new-candidate .intro{
+	font-size: 16px;
+	color: #9e9e9e;
+}
+
+.wrap-new-candidate .content-interview{
+	font-size: 16px;
+	color: #9e9e9e;
+	min-height: 300px;
+	position: relative;
+}
+.wrap-new-candidate .content-interview .text{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+.wrap-new-candidate .list-candi{
+ 
+}
+.wrap-new-candidate .list-candi a{
+	font-weight: 600;font-size: 15px;
+}
+.wrap-new-candidate ul.list{min-height: 80vh}
+.wrap-new-candidate .list-candi a:hover{
+	color: #ffd131;
+}
+
+.wrap-new-candidate .list-candi a.active{color:#ffd131;}
+
+
+.chat.screen{
+	position: fixed;
+	bottom: 0;z-index: 100;
+	background-color: #fff;
+    height: 350px;
+    width: 350px;right: 20vh;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+.chat.screen.hide{
+	height: 44px;
+}
+.chat.screen .head{background: #ffd131;padding: 10px;border-top-left-radius: 1rem;border-top-right-radius: 1rem;position: relative;cursor: pointer;}
+.chat.screen .head i{position: absolute;right: 15px;top: 1rem;}
+.chat.screen .conversation{
+	height: calc(100% - 95px);
+    overflow: auto;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.chat.screen .text-bar{height: 50px;
+	border-top: 1px solid #ccc;}
+.chat.screen .text-bar .text-bar__field{
+	float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.text-bar__field input {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    position: relative;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.text-bar__thumb .thumb {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.thumb-img, .thumb{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../imgs-fix/thumbs-up-solid.svg);
+}
+.messages--sent .message:first-child {
+    border-top-right-radius: 15px;
+}
+.messages--sent .message {
+    float: right;
+    background-color: #ffd131;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.message {
+    display: inline-block;
+    margin-bottom: 2px;
+    clear: both;
+    padding: 7px 13px;
+    font-size: 12px;
+    border-radius: 15px;
+    line-height: 1.4;
+}
+
+.messages--received .message:last-child {
+    border-bottom-left-radius: 15px;
+}
+.messages--received .message:first-child {
+    border-top-left-radius: 15px;
+}
+.messages--received .message {
+    float: left;
+    background-color: #ddd;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.content-interview .inf-block{margin-bottom: 1.5rem;}
+.content-interview .inf-block ul{list-style-type: circle;list-style-position: inside;color: #626262;}
+.content-interview .inf-block h5{color: #626262;font-size: 1rem;font-weight: 600;} 
+.content-interview .inf-block p>span{color: #626262;}
+.content-interview .inf-block li,.content-interview .inf-block p{margin-bottom: 0.5rem;}

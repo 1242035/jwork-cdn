@@ -1,0 +1,45 @@
+.box-sign-up-done{
+	min-height: 650px;
+	text-align: center;
+}
+.box-sign-up-done .name-title{
+	color: #131212;
+	font-size: 28px;
+	margin-bottom: 30px
+}
+.box-sign-up-done .intro{
+	font-size: 18px;
+	color: #8b8b8b;
+}
+
+.content-tip-for-job-detail{
+		background: #fff;
+		padding:2rem 3rem;border-radius: 15px;box-shadow:  0 0 15px lightgray;
+}
+.content-tip-for-job-detail .img-thumb{
+	margin-bottom: 20px;
+}
+.title-tip-for-job-detail{
+	font-size: 16px;
+	color: #323232;
+}
+.title-tip-for-job-detail {
+	margin-bottom: 20px;
+}
+.img-tip{
+	overflow: hidden;
+}
+.color-tip-text-image{
+	color: #909090;
+}
+.mtb-20{
+	margin: 20px 0;
+}
+
+.list-tip {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 15px;
+}
+.list-tip .title h5{font-size: 18px;font-weight: 600;}
+.list-tip .detail {font-size: 15px;}
