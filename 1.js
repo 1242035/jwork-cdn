@@ -26,7 +26,8 @@ function CloseselectLocation(){
     $('.popup-select-location').removeClass('show');
 }  
 // hover map
-function hoverpath() {
+
+function hoverpath(){
     $('.hokkaido').hover(function () {
         $('.hokkaido').attr('fill', '#ccd82f');
         $('.hokkaido').find('.area-name').css('color', '#ccd82f');
@@ -90,10 +91,332 @@ function hoverpath() {
 };
 
 
-function sliderListJob() {
-    var sliderListJob = new Swiper('#list-job .swiper-container', {
-        slidesPerView: 3,
-        spaceBetween: 40,
+function sliderListJobHome() {
+    var sliderListJob1 = new Swiper('.list-job.list-1 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-1 .next-job',
+            prevEl: '.list-job.list-1 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob2 = new Swiper('.list-job.list-2 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-2 .next-job',
+            prevEl: '.list-job.list-2 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob3 = new Swiper('.list-job.list-3 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-3 .next-job',
+            prevEl: '.list-job.list-3 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob4 = new Swiper('.list-job.list-4 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-4 .next-job',
+            prevEl: '.list-job.list-4 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob5 = new Swiper('.list-job.list-5 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-5 .next-job',
+            prevEl: '.list-job.list-5 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob6 = new Swiper('.list-job.list-6 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-6 .next-job',
+            prevEl: '.list-job.list-6 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob7 = new Swiper('.list-job.list-7 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-7 .next-job',
+            prevEl: '.list-job.list-7 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob8 = new Swiper('.list-job.list-8 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-8 .next-job',
+            prevEl: '.list-job.list-8 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob9 = new Swiper('.list-job.list-9 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-9 .next-job',
+            prevEl: '.list-job.list-9 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob10 = new Swiper('.list-job.list-10 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-10 .next-job',
+            prevEl: '.list-job.list-10 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+    var sliderListJob11 = new Swiper('.list-job.list-11 .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        loop: true,
+        speed: 600,
+        autoplay: false,
+        /*autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },*/
+        navigation: {
+            nextEl: '.list-job.list-11 .next-job',
+            prevEl: '.list-job.list-11 .prev-job',
+        },
+
+        breakpoints: {
+            // when window width is <= 320px
+            567: {
+                slidesPerView: 1,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                spaceBetween: 10,
+            },
+        }
+    });
+};
+
+function sliderListJob1() {
+    var sliderListJob = new Swiper('.list-job-carousel', {
+        slidesPerView: 4,
+        spaceBetween: 20,
         loop: true,
         speed: 600,
         autoplay: false,
@@ -181,14 +504,14 @@ function bookmark() {
 
 
 function tabFilter1(obj) {
-    $('#tab-filter .nav-tabs .nav-link').removeClass('active');
+    $('.filter-banner .nav-tabs .nav-link').removeClass('active');
     $(obj).addClass('active');
     var id = $(obj).attr('href');
-    $('#tab-filter .tab-pane').removeClass('active');
-    $('#tab-filter' + ' ' + id).addClass('active');
+    $('.filter-banner .tab-pane').removeClass('active');
+    $('.filter-banner' + ' ' + id).addClass('active');
 };
 
-$('#tab-filter .nav-tabs .nav-link').click(function () {
+$('.filter-banner .nav-tabs .nav-link').click(function () {
     tabFilter1(this);
     return false;
 });
@@ -232,22 +555,22 @@ function closeGallery() {
 };
 
 
-//block filter - page list job
-function listRegion() {
-    $('.list-region li').click(function () {
-        $('.list-region li').removeClass('active');
-        $(this).addClass('active');
-    });
-};
 
 
 
+
+
+function sliderGallery() {
 var sliderGalleryThumb = new Swiper('.popup-gallery .thumb', {
-    slidesPerView: 6,
+    slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
-    slideToClickedSlide: true,
     centeredSlides: true,
+    slideToClickedSlide: true,
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
     breakpoints: {
         // when window width is <= 320px
         320: {
@@ -269,12 +592,14 @@ var sliderGalleryThumb = new Swiper('.popup-gallery .thumb', {
 
 
 });
-
-function sliderGallery() {
     var sliderGallery = new Swiper('.popup-gallery .slider', {
         slidesPerView: 1,
-        spaceBetween: 50,
+        spaceBetween: 0,
         loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+          },
 
         navigation: {
             nextEl: '#next',
@@ -492,13 +817,63 @@ function listCandiDecline(){
 }
 
 
+$('.btn-dropdown').click(function(){
+    $('.jw-select').removeClass('show');
+    $(this).next('.jw-select').addClass('show');
+   
+});
 
-function select(){
-    $('.jw-select').toggleClass('d-none');
-}
+
+  $(document).click(function(event) {
+    if (!$(event.target).closest(".jw-select-d,.search-list-job").length) {
+      $("body").find(".jw-select").removeClass("show");
+    }
+  });
+
+
 
 function option(){
     var sa=$(this).text();
     $('button.luong').text('900円以上');
 }
 
+function showMap(){
+    $(".list-rs").find(".list-row").toggleClass("list-grid");
+    $(".list-rs").find(".map").toggleClass("d-none");
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+function popupShare(){
+    $('.popup-share').addClass('d-block');
+}
+
+function closePopupShare(){
+    $('.popup-share').removeClass('d-block');
+}
+
+function popupApply(){
+    $('.popup-apply').addClass('d-block');
+}
+
+function closePopupApply(){
+    $('.popup-apply').removeClass('d-block');
+}
+
+function comfirmApply(){
+    confirm('LABOROはあなたのプロフィールと応募理由を求人者に送ります。');
+}

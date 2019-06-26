@@ -27,7 +27,7 @@
 .candi-profile .ab  .save .btn-view-more:hover{color: #ffd131;}
 .candi-profile .head p{font-weight: 600;color: #6c6c6c;}
 .candi-profile .content .about{margin-bottom: 1.5rem;}
-.candi-profile .content .about label{color: #cbcbcb;font-size: 16px;margin-bottom: 0;}
+.candi-profile .content .about label{color: rgb(72, 72, 72) !important;font-size: 16px;margin-bottom: 0;}
 .candi-profile .content .about .form-control{border:0;border-bottom: 1px solid rgba(0,0,0,.15);border-radius:0;padding: 5px 0;
     color: #5b5b5b; font-size: 16px;}
 .candi-profile .content .about .form-control::placeholder{color: #cbcbcb;font-size: 16px;}
