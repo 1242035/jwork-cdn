@@ -37,9 +37,15 @@
 .imgs-job .item img{transition: .5s;width: 100%;transform: scale(1.0);height: 100%;object-fit: cover;}
 .page-detail-job .detail .imgs-job .item .overlay::after{content: "";color: #fff;text-align: center;align-self: center;position: absolute;left: 0;top: 0;width: 100%; height: 100%;
 background:#00000078 ;border-radius: 4px;}
+<<<<<<< .mine
 .page-detail-job .detail .btn-apply{width: 100%;color: #fff;background: #3cb878;cursor: pointer;border-radius: 1.5rem;}
 .page-detail-job .detail .btn-del{border-radius: 1.5rem;}
 .page-detail-job .detail .btn-apply:disabled{background: #ddd;cursor: unset;color: #18181a;}
+=======
+.page-detail-job .detail .btn-apply{width: 100%;color: #fff;background: #3cb878;cursor: pointer;border-radius: 1.5rem;}
+
+
+>>>>>>> .theirs
 .page-detail-job .detail .btn-apply2{width: 50%;cursor: pointer;}
 .page-detail-job .detail .content{font-size: 15px;color: #323232;margin-bottom: 2rem;background: #fff;
 		padding: 2rem;border-radius: 10px;box-shadow: 0 0 0px #e7e7e7;}
@@ -151,6 +157,7 @@ position: absolute;height: 90%;border-radius: 10px;background: #fff;width: 100%;
 
 .page-detail-job .tag-search{
 	background: #f9fafc; padding:.5rem 1rem; border-radius: .25rem;box-shadow: 0 0 15px #e7e7e7;
+<<<<<<< .mine
 }
 
 .popup-apply, .popup-share,.popup-comfirm-del {
@@ -184,3 +191,38 @@ position: absolute;height: 90%;border-radius: 10px;background: #fff;width: 100%;
 		overflow: hidden;}
 .popup-comfirm-del .modal-content .btn-save{background: #ffd131;width: 100%;margin: auto;border-radius: 1.5rem;font-weight: bold;cursor: pointer;}
 .popup-comfirm-del .modal-content .btn-save.bg-light{background: #ddd;}
+=======
+}
+
+.popup-apply, .popup-share {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1000;
+    padding-top: 5%;
+    display: none;
+    overflow-y: auto;
+}
+.popup-apply .modal-content, .popup-share .modal-content {
+    border-radius: 20px;min-height: 500px;
+    overflow: hidden;
+}
+.popup-apply .modal-content .btn-save{background: #ffd131;width: 100%;margin: auto;border-radius: 1.5rem;font-weight: bold;cursor: pointer;}
+.popup-share .modal-dialog{width: 350px;}
+.popup-share .modal-dialog .list-group-item i{color: #f89d1d;width: 28px;text-align: center;}
+.popup-share .list-group-item{padding-left: 0;font-size: 18px;}
+.modal-dialog select.form-control{opacity: 0.9;
+    background: url(../imgs-fix/chevron-down-solid.svg) 97% / 1% no-repeat #fff;
+    -webkit-appearance: none;border-radius: 2rem;}
+
+
+
+
+
+
+
+>>>>>>> .theirs

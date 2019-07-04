@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{2:function(n,o,p){n.exports=p("ouZK")},ouZK:function(n,o,p){"use strict";p.r(o);var a=p("XuX8"),e=p.n(a);e.a.component("app-share",p("sff5").default);new e.a({el:"#app"})}},[[2,0,1]]]);

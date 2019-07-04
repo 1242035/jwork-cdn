@@ -9,20 +9,37 @@
 @import url("../style/sign-up-done.css");
 @import url("../style/candi-page.css");
 
+<<<<<<< .mine
+
+
+=======
+
+
+>>>>>>> .theirs
 @font-face {
     font-family: 'RoundedMplus1c'; 
     src: url('../Jwork-fonts/RoundedMplus1c-Regular.ttf'); 
     font-weight: 500;
 }
-*/
 *:focus{outline:none}
+
 body{
+<<<<<<< .mine
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+=======
+  font-family: 'RoundedMplus1c', sans-serif;
+  font-weight: 500;
+>>>>>>> .theirs
   background-color: #f5f6fa;
 }
 
 button, input, optgroup, select, textarea {
+<<<<<<< .mine
+
+=======
+    font-family: 'RoundedMplus1c';
+>>>>>>> .theirs
     font-weight: 500;line-height: 1;
 }
 button:focus{outline: none;}
@@ -135,17 +152,12 @@ input[name="date"]{background: url(../imgs-fix/calendar-alt-regular.svg) 98% / 1
 .search-list-job i{color: #b5b5b5;}
 .salary-op.jw-select{overflow: unset;max-height: unset;}
 .search-list-job label.label-checkbox .checkmark{top: 7px;}
-.tit-slide{font-size: 18px;font-weight: 600;padding-left: 10px;margin-bottom: 1.5rem;color: rgb(72, 72, 72) !important; position: relative;}
+.tit-slide{font-size: 18px;font-weight: 600;padding-left: 10px;margin-bottom: 1.5rem;color: rgb(72, 72, 72) !important;}
 .tit-slide::after{content: "";width: 20px;height: 5px;background: #ffd131;position: absolute;bottom: -8px;left: 10px; }
 
 .banner-job-type{max-height: 380px;overflow: hidden;border-radius: 5px;}
-/*.banner-job-type::after{position: absolute;width: 100%;height: 100%;background: #00000059;content: "";
-  top: 0;left: 0;border-radius: 5px;}*/
+.banner-job-type::after{position: absolute;width: 100%;height: 100%;background: #00000059;content: "";
+  top: 0;left: 0;border-radius: 5px;}
 
-.search-list-job .jw-select-banner.show{bottom:3rem;left: 102%;opacity: 1;}
-.search-list-job .jw-select-banner{bottom:3rem;left: 50%;text-align: left!important;width: 90%;box-shadow: 0 0 0 0;transition: .8s;opacity: 0;}
-#Jw-nav {
-    padding: 20px 30px;
-    background-color: #222328;
-    min-height: 51px;
-}
+  .search-list-job .jw-select-banner.show{bottom:3rem;left: 102%;opacity: 1;}
+  .search-list-job .jw-select-banner{bottom:3rem;left: 50%;text-align: left!important;width: 90%;box-shadow: 0 0 0 0;transition: .8s;opacity: 0;}

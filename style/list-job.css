@@ -33,11 +33,23 @@
 }
 .list-rs .item .ct-bottom i{margin-right: 0.5rem;color: orangered;font-size: 16px;}
 .list-rs .item .content .title i{position: absolute;top:0;right: -10%;color:#c3c3c3;cursor: pointer;}
+<<<<<<< .mine
 .list-rs .item .content  .status{background: green;color: #fff;padding:1px 5px;border-radius: 3px;white-space: nowrap;height: 1.3rem;}
 .list-rs .item .content  .status.dis{background: lightgrey;}
+
+=======
+.list-rs .item .content  .status{background: green;color: #fff;
+padding:1px 5px;border-radius: 3px;}
+.list-rs .item .content  .status.dis{background: lightgrey;}
+>>>>>>> .theirs
 .list-rs .item .content .title i.bookmark{color: #f38c2a;font-weight: 900;}
+<<<<<<< .mine
 .list-rs .item .content .detail ul{display: flex;margin-bottom: 1rem;}
 .list-rs .item .content .detail i{color: #757575;margin-right: 5px;width: 25px;text-align: center;}
+=======
+.list-rs .item .content .detail ul{display: flex;margin-bottom: 1rem;}
+.list-rs .item .content .detail i{color:#757575;margin-right: 5px;}
+>>>>>>> .theirs
 .list-rs .item .content .detail .salary , .list-rs .item .content .detail .salary i{color: #c13a40;}
 .list-rs .item .content .detail li{margin-right:auto; }
 .list-rs .item .content .detail .date{margin-left: auto;margin-right: 0;}
@@ -56,6 +68,7 @@
     padding: 1px 4px;font-size: 13px;white-space: nowrap;display: inline-block;margin-bottom: 5px;}
     .tag-search span i{cursor: pointer;}
 
+<<<<<<< .mine
 
 .switch {position: relative;display: inline-block;width: 50px;height: 27px;}
 .switch input { opacity: 0;width: 0;height: 0;}
@@ -114,6 +127,66 @@ input:checked + .slider:before {-webkit-transform: translateX(22px);-ms-transfor
 @media(max-width: 1200px){
 	.list-rs .list-grid .list{grid-template-columns: 25% 25% 25% 25%;}
 }
+=======
+
+.switch {position: relative;display: inline-block;width: 50px;height: 27px;}
+.switch input { opacity: 0;width: 0;height: 0;}
+.show-map .slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;
+-webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";
+height: 19px;width: 19px;left: 4px;bottom: 4px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+
+input:checked + .slider {background-color: #ffd131;}
+input:focus + .slider {box-shadow: 0 0 1px #ffd131;}
+input:checked + .slider:before {-webkit-transform: translateX(22px);-ms-transform: translateX(22px);transform: translateX(22px);}
+.slider.round {border-radius: 34px;}
+
+.slider.round:before {border-radius: 50%;}
+
+.filter-new{border-bottom: 1px solid rgb(235, 235, 235);border-top: 1px solid rgb(235, 235, 235);margin: 15px;}
+
+.list-rs{position: relative;}
+.list-rs .list-row{width: 50%;padding-right: 15px;}
+.list-rs .list-grid{width: 100%!important;padding-right: 0;}
+.list-rs .list-grid .list{display: grid;grid-template-columns: 20% 20% 20% 20% 20%;}
+.list-rs .list-grid .item{padding-right: 15px;padding-left: 15px;}
+.list-rs .list-grid .item {background:none ;border: 0;display: inline-block;}
+.list-rs .list-grid .item:hover{box-shadow: 0 0 0 0;}
+.list-rs .list-grid .item .img{width: 100%;}
+.list-rs .list-grid .item .content{width: 100%;}
+.list-rs .list-grid .item .img img{border-radius: 3px;}
+.list-rs .item .list-grid .content .title .status{bottom: 0;top: unset;margin-bottom: 2rem;}
+.list-rs .map{width: 50%;display: block;height: 90vh;position: sticky;position: -webkit-sticky;top: 0vh;}
+
+.filter-new .dropdown-item.active,.filter-new .dropdown-item:hover,.search-list-job .dropdown-item:hover{background: unset;}
+.filter-new .btn-light{border-radius: 1.5rem;}
+.filter-new .btn-light.active{background: #ffd131;}
+.filter-new .btn-light:focus{background: #ffd131;}
+
+@media(max-width: 1440px){
+    .list-rs .list-grid .item{}
+    .list-rs .item .content .title h4{font-size: 16px;line-height: 1.2;}
+    .list-rs .item .content .title .status{font-size: 12px;}
+    .list-rs .item .content .detail ul{margin-bottom: 10px;}
+}
+
+@media(max-width: 1366px){
+    .list-rs .list-grid .item{}
+    .list-rs .item .content .title h4{font-size: 16px;line-height: 1.2;}
+    .list-rs .item .content .title .status{font-size: 12px;}
+    .list-rs .item .img{width: 45%}
+    .list-rs .item{font-size: 14px;}
+    
+    .filter-new .btn-light{padding: 5px 10px;}
+}
+@media(max-width: 1200px){
+	.list-rs .list-grid .list{grid-template-columns: 25% 25% 25% 25%;}
+}
+
+
+
+
+>>>>>>> .theirs
 @media(max-width: 768px){
 	.list-rs .item .content .detail ul{display: block;}
 	.list-rs .item .img{margin-bottom: 10px;}
