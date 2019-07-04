@@ -1,12 +1,10 @@
 {
-    "/js/manifest.js": "/js/manifest.js?id=01c8731923a46c30aaed",
-    "/js/vendor.js": "/js/vendor.js?id=7ae23bd908737aa90a5b",
-    "/js/app.js": "/js/app.js?id=5ddefd2b02232c9f462f",
-    "/js/app-chat.js": "/js/app-chat.js?id=2a5f5f2e63fa238d2e28",
-    "/js/app-share.js": "/js/app-share.js?id=cfd644a104dee9e2a5b3",
+    "/js/vendor.js": "/js/vendor.js?id=11cd378203c43e290449",
+    "/js/app.js": "/js/app.js?id=f2975e59fa7253c908da",
+    "/js/manifest.js": "/js/manifest.js?id=b2e6aadc0397deabdfb7",
     "/css/vendor.css": "/css/vendor.css?id=8dbc6dc67b4724087e6d",
-    "/css/style.css": "/css/style.css?id=f2802e1f6df21c9d7dec",
-    "/css/all.css": "/css/all.css?id=9e959d61e9e763e8e253",
-    "/js/vendor.min.js": "/js/vendor.min.js?id=7ae23bd908737aa90a5b",
-    "/js/app.min.js": "/js/app.min.js?id=5ddefd2b02232c9f462f"
+    "/css/style.css": "/css/style.css?id=4301f7b84ca674b300e6",
+    "/css/all.css": "/css/all.css?id=ccd6c0676bef04622c7b",
+    "/js/vendor.min.js": "/js/vendor.min.js?id=11cd378203c43e290449",
+    "/js/app.min.js": "/js/app.min.js?id=f2975e59fa7253c908da"
 }

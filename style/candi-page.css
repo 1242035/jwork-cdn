@@ -12,22 +12,27 @@
 .candi-profile .list-info li:hover i{right: 0;transition: 0.2s;}
 .candi-profile .list-info li i{position: absolute;right: 10px;top: 50%;transform: translateY(-50%);transition: 0.2s;}
 
-.candi-profile .ab{box-shadow: 0 0 15px lightgrey;
+.candi-profile .ab{
+    box-shadow: 0 0 15px lightgrey;
     border-radius: 20px;
     background: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 5rem 1rem;
     width: 100%;
-    min-height:100vh;position: relative; }
-
+    min-height:100vh;position: relative; 
+}
+.candi-profile .ab  .save .btn-view-more{box-shadow: 0 0 0 0;font-size: 14px;}
+.candi-profile .ab  .save .btn-view-more:hover{}
 .candi-profile #ab-5.ab hr{margin-top: 5px;margin-bottom: 5px;}
 .candi-profile .ab .content  .add{cursor: pointer;display: flex;margin-top: 2.5rem;font-weight: 600;color: #5b5b5b}
 .candi-profile .ab  .content .add i{font-size: 24px;color:#ffd131;margin-right: 1rem;}
-.candi-profile .ab  .save {position: absolute;right:1rem;top: 1rem;text-decoration: underline;}
-.candi-profile .ab  .save .btn-view-more{background: none;color: #6c6c6c;border-radius: 0;box-shadow: 0 0 0 0;font-size: 14px; }
-.candi-profile .ab  .save .btn-view-more:hover{color: #ffd131;}
+.candi-profile .ab  .save {color: #ffd131; position: absolute;left: 50%;bottom: 2rem;transform: translateX(-50%);text-decoration: underline;}
+
+/*.candi-profile .ab  .save {position: absolute;right:1rem;top: 1rem;text-decoration: underline;}*/
+/*.candi-profile .ab  .save .btn-view-more{background: none;color: #6c6c6c;border-radius: 0;box-shadow: 0 0 0 0;font-size: 14px; }
+.candi-profile .ab  .save .btn-view-more:hover{color: #ffd131;}*/
 .candi-profile .head p{font-weight: 600;color: #6c6c6c;}
 .candi-profile .content .about{margin-bottom: 1.5rem;}
-.candi-profile .content .about label{color: #cbcbcb;font-size: 16px;margin-bottom: 0;}
+.candi-profile .content .about label{color: rgb(72, 72, 72) !important;font-size: 16px;margin-bottom: 0;}
 .candi-profile .content .about .form-control{border:0;border-bottom: 1px solid rgba(0,0,0,.15);border-radius:0;padding: 5px 0;
     color: #5b5b5b; font-size: 16px;}
 .candi-profile .content .about .form-control::placeholder{color: #cbcbcb;font-size: 16px;}

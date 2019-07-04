@@ -1,13 +1,13 @@
 .frm-post-job .company-info{padding: 2rem 2rem 1rem 2rem;margin-top: 1.5rem;color: #3c3c3c;background:#fff;
-    border-radius: 20px;position: relative;box-shadow: 0 0 15px lightgray}
+    border-radius: 10px;position: relative;box-shadow: 0 0 5px lightgray}
 .frm-post-job .company-info h3{font-size: 16px;font-weight: 600;}
 .frm-post-job .company-info p{font-weight: lighter;}
 .frm-post-job .company-info li{margin-bottom: 0.5rem;}
 .frm-post-job .company-info .btn-edit{color:#eb501e ;position: absolute; top: 2rem;right: 2rem;}
 
-.frm-post-job .form-control{box-shadow: 0 0 15px lightgray;border: 0;border-radius: 1.5rem;}
+.frm-post-job .form-control{box-shadow: 0 0 5px lightgray;border: 0;border-radius: 10px;}
 .frm-post-job .form-control::placeholder{font-size: 16px;}
-.frm-post-job .form-control{padding: 5px 20px;}
+.frm-post-job .form-control{padding: 5px 15px;}
 .frm-post-job .form-control.input-text, .frm-post-job button.form-control{height: calc(2.25rem + 2px); }
 .frm-post-job select.form-control,.frm-post-job button.form-control   { background: url('../imgs-fix/chevron-down-solid.svg') 98% / 1% no-repeat #fff;
     -webkit-appearance: none;
